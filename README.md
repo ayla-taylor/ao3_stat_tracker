@@ -13,7 +13,7 @@ This program is designed so that every time you run it, it pulls all your stats,
 To install:  
 1. download the directory 
 2. using the terminal (see [this tutorial](https://towardsdatascience.com/a-quick-guide-to-using-command-line-terminal-96815b97b955) if you are unfamilar.) access the directory.
-3. run the following command: `pip install -m requirements.txt`
+3. run the following command: `pip install -r requirements.txt`
 
 
 ### Running the program: 
