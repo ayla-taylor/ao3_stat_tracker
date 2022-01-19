@@ -21,7 +21,6 @@ def make_excel(username):
         print(story)
         story_stats = {}
         for date in data.keys():
-            print(data[date][1])
             if data[date][1][story]:
                 story_stats[date] = data[date][1][story]
         story_dfs.append((story, pd.DataFrame.from_dict(story_stats)))
